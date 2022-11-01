@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: Arial; */
+  font-size: 1.2rem;
+}
+
+#contentList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+i.fa.fa-arrow-circle-right > * {
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
